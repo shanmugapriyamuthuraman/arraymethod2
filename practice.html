@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+        let employees = [
+   {
+       "id": 11,
+       "name":"Abhinav",
+       "salary":75000
+   },
+   {
+       "id": 2131,
+       "name":"Gaurav",
+       "salary":32000
+   },
+   {
+       "id": 3012,
+       "name":"Raj",
+       "salary":62000
+   }]
+   let sort1=employees.map(function(value){
+    return value.salary
+   });
+   console.log(sort1)
+   let val=sort1.sort()
+   console.log(val)
+   let val1=val.reverse()
+   console.log(val1)
+   let a=[1,2,3,4,5]
+   let b=a.splice()
+   console.log(b)
+    </script>
+</body>
+</html>
